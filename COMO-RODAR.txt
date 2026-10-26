@@ -1,0 +1,10 @@
+1) Instale Docker Desktop e inicie-o.
+2) Na pasta do projeto: docker compose up -d --build
+3) Aguarde o container instalar o Composer e iniciar o servidor.
+4) Em outro terminal, rode: npm install
+5) Testes PHPUnit: docker compose exec app php artisan test
+6) Cypress interativo: npx cypress open
+7) Cypress headless: npm run cy:run
+8) Três execuções consecutivas: npm run test:3x
+
+Se o compose não subir, verifique Docker Desktop e leia README.md.

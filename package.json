@@ -1,0 +1,13 @@
+{
+  "name": "doce-gestao-testes",
+  "version": "1.0.0",
+  "private": true,
+  "devDependencies": {
+    "cypress": "^13.17.0"
+  },
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "test:3x": "npm run cy:run && npm run cy:run && npm run cy:run"
+  }
+}
